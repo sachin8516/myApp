@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body{\\n    margin: 0;\\n    background-color: #444;\\n}\\n\\nh1{\\n    height: 100vh;\\n    display: flex;\\n    color: #fff;\\n    align-items: center;\\n    justify-content: center;\\n    font-size: 6em;\\n    font-family: sans-serif;\\n    text-shadow: 0px 0px 20px #000;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/css/main.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body{\\n    margin: 0;\\n    background-color: #444;\\n}\\n.profile{\\n    background-color: beige;\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n    height: 100vh;\\n    flex-flow: column;\\n}\\n.profile img{\\n    border-radius: 100%;\\n    width: 300px;\\n    box-shadow: 0px 0px 20px #000;\\n}\\n.profile h1{\\n    color: #fff;\\n    font-size: 6em;\\n    font-family: sans-serif;\\n    text-shadow: 0px 0px 20px #000;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/css/main.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -159,7 +159,7 @@ eval("module.exports = __webpack_require__.p + \"index.html\";\n\n//# sourceURL=
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n__webpack_require__(/*! ../index.html */ \"./src/index.html\");\n\nalert(\"Hello sachin\");\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n\n__webpack_require__(/*! ../index.html */ \"./src/index.html\");\n\nalert(\"Hello sachin\");\n\nvar a = function () {\n  console.log(\"Hello from the future!\");\n};\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ })
 
