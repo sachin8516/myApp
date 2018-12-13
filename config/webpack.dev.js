@@ -6,7 +6,7 @@ module.exports = {
     entry: {
         main: ["./src/js/main.js"]
     },
-    mode: "production",
+    mode: "development",
     output: {
         filename: "js/[name]_bundle.js",
         path: path.resolve(__dirname, "../dist"),
