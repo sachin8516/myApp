@@ -1,6 +1,5 @@
 require("babel-runtime/regenerator");
 require("webpack-hot-middleware/client?reload=true");
-require("../css/main.css");
+require("../stylus/main.styl");
 require("../index.html");
 
-alert("Hello sachin");
